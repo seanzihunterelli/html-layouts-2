@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  margin: 4vh 3vw;
+  color: #2e2e2e;
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  background-color: #D8D8D8;
+  height: 25vh;
+}
+footer {
+  background-color: #333;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+header {
+  background-color: #333;
+  height: 70px;
+  width: 100%;
+}
+.header {
+  float: left;
+  color: white;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.left-col {
+  float: left;
+  width: 48%;
+}
+.right-col {
+  float: left;
+  width: 48%;
+}
+main p {
+  font-size: 14px;
+}
+h1 {
+  margin: 0;
+}
